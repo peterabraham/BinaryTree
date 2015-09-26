@@ -122,13 +122,13 @@ void Tree::Print( const int nSpace_i, const TreeNode* pstNode_i )
     {
         Print( nSpace_i + 4, pstNode_i->pstRightNode );
         cout << setw( nSpace_i ) << pstNode_i->nData << endl;
-        Print( nSpace_i, pstNode_i->pstLeftNode );
+        Print( nSpace_i + 4, pstNode_i->pstLeftNode );
     }
 }
 
 
 /**
- * Main function to demonstrate Linked List
+ * Main function to demonstrate Binary Tree.
  **/
 int main()
 {
